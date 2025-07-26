@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav{
+    width: 100%;
+    height: 10vh;
+    background-color: blue;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 2%;
+    align-items: center;
+}
+
+ul{
+    height: fit-content;
+    display: flex;
+    justify-content: right ;
+    align-items: center;
+    width: 100%;
+    margin: 0 ;
+}
+
+
+@media only screen and (max-width: 600px)  { /*  Mobile view */  
+    .logo h1{
+        font-size: large;
+    }
+
+    li{
+        padding: 0px;
+        font-size: 12px;
+        margin: 2px;
+    }
+}
+
+li{
+    list-style: none;
+    text-decoration: none;
+    height: max-content;
+    padding: 1rem;
+    margin: 1% 2%;
+    background-color: aquamarine;
+}
